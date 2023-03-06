@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Welcome to student account creation</h1>
+<form action="studentsignup"  method="post" enctype="multipart/form-data">
+<table>
+<tr>
+<th>
+Name:
+</th>
+<th>
+<input type="text" name="Name" required="required">
+</th>
+</tr>
+<tr>
+<th>
+Mobile:
+</th>
+<th>
+<input type="tel" name="Mob" pattern="[0-9 ]{10}" required="required">
+</th>
+</tr>
+<tr>
+<th>
+Email:
+</th>
+<th>
+<input type="text" name="Email" required="required">
+</th>
+</tr>
+<tr>
+<th>
+Password:
+</th>
+<th>
+<input type="password" name="Password" required="required">
+</th>
+</tr>
+<tr>
+<th>
+Standard:
+</th>
+<th>
+<select name="Standard"  required="required">
+<option>Select your standard</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+</th>
+</tr>
+<tr>
+<th>
+Upload your picture:
+</th>
+<th>
+<input type="file" name="pic" required="required">
+</th>
+</tr>
+<tr>
+<th><button type="reset">cancel</button></th>
+<th><button>Save</button></th>
+</tr>
+</table>
+</form>
+<br>
+	<a href="Login.html"><button>Home</button></a>
+</body>
+</html>

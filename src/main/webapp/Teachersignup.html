@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 style="color: red">Enter Employee Details</h1>
+	<br>
+	<form action="Teachersignup" method="post" >
+		<table>
+		<tr>
+				<th>Name:</th>
+				<th><input type="text" name="name" required="required">
+				</th>
+			</tr>
+			<tr>
+				<th>Mobile:</th>
+				<th><input type="tel" name="mob" pattern="[0-9]{10}"
+					required="required"></th>
+			</tr>
+			<tr>
+				<th>Email:</th>
+				<th><input type="email" name="email" required="required">
+				</th>
+			</tr>
+			<tr>
+				<th>Password:</th>
+				<th><input type="password" name="password" required="required">
+				</th>
+			</tr>
+			<tr>
+				<th>Subject:</th>
+				<th><select name="subject" required="required">
+						<option>Select your Subject</option>
+						<option>Mathematics</option>
+						<option>Science</option>
+						<option>English</option>
+						<option>Kannada</option>
+						<option>Hindi</option>
+						<option>Socialscience</option>
+				</select></th>
+			</tr>
+			<tr>
+				<th><button type="reset">Cancel</button></th>
+				<th><button>Save</button></th>
+			</tr>
+			
+			</table>
+			
+			<br>
+	<a href="Login.html"><button>Home</button></a>
+</body>
+</html>
